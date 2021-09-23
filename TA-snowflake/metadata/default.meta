@@ -1,0 +1,61 @@
+[props/snowflake%3Akv]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = nobody
+version = 8.2.2
+
+[props/snowflake%3Aauth/FIELDALIAS-snowflake_fld_aliases_cim]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = nobody
+version = 8.2.2
+modtime = 1632416054.421507000
+
+[eventtypes/snowflake_eventtypes_auth]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = nobody
+version = 8.2.2
+modtime = 1632415582.314317000
+
+[tags/eventtype%3Dsnowflake_eventtypes_auth]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = nobody
+version = 8.2.2
+modtime = 1632415582.326203000
+
+[props/snowflake%3Aauth/EVAL-action]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = nobody
+version = 8.2.2
+modtime = 1632415867.167699000
+
+[eventtypes/snowflake_eventtypes_auth_action_fail]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = nobody
+version = 8.2.2
+modtime = 1632415960.405320000
+
+[eventtypes/snowflake_eventtypes_auth_action_success]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = nobody
+version = 8.2.2
+modtime = 1632415990.320220000
+
+[tags/eventtype%3Dsnowflake_eventtypes_auth_action_success]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = nobody
+version = 8.2.2
+modtime = 1632415990.329567000
+
+[props/snowflake%3Aauth/EVAL-dest]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = nobody
+version = 8.2.2
+modtime = 1632416156.960213000
