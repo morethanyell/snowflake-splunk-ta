@@ -1,3 +1,7 @@
+[]
+access = read : [ * ], write : [ admin, power ]
+export = system
+
 [props/snowflake%3Akv]
 access = read : [ * ], write : [ admin, power ]
 export = system
